@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONTS */
+@font-face {
+  font-family: "Inter-Black";
+  src: url("../assets/fonts/Inter-Black.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../assets/fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Extrabold";
+  src: url("../assets/fonts/Inter-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Source-Bold";
+  src: url("../assets/fonts/SourceSans3-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Source-Semibold";
+  src: url("../assets/fonts/SourceSans3-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Source-Medium";
+  src: url("../assets/fonts/SourceSans3-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Source-Regular";
+  src: url("../assets/fonts/SourceSans3-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Source-Light";
+  src: url("../assets/fonts/SourceSans3-Light.ttf");
+}
