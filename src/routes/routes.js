@@ -7,6 +7,9 @@ import {
   Route,
 } from "react-router-dom";
 
+/* LAYOUT FILES */
+import Layout from "layout";
+
 /* ROUTES */
 import Homepage from "pages/index";
 
@@ -29,7 +32,14 @@ const App = () => {
       <Router>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route
+            path="/"
+            element={
+              <Layout>
+                <Homepage />
+              </Layout>
+            }
+          />
         </Routes>
       </Router>
     </div>
