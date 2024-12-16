@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* PACKAGES */
+@import "react-phone-number-input/style.css";
+
 /* FONTS */
 @font-face {
   font-family: "Inter-Black";
@@ -49,11 +52,30 @@ html {
 
 .container {
   max-width: 165vh !important;
-  padding: 0vh 3vh !important;
+  padding: 0vh 2vh !important;
   margin: auto;
 }
 
 /* HEADER SHADOW */
 .header-shadow {
   box-shadow: 0px 3px 5px rgba(57, 63, 72, 0.2);
+}
+
+/* PHONE INPUT */
+.phone .PhoneInputInput {
+  font-size: 1.6vh;
+  border: 1px solid #e5e5e5;
+  padding: 1.3vh 2.1vh;
+  border-radius: 6px;
+  font-family: "Source-Regular", sans-serif;
+}
+
+.phone.error .PhoneInputInput {
+  border: 1px solid #ef5350;
+}
+
+.phone .PhoneInputCountry {
+  border: 1px solid #e5e5e5;
+  padding: 1.3vh;
+  border-radius: 6px;
 }

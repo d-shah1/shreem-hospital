@@ -14,6 +14,8 @@ module.exports = withMT({
       colors: {
         logoPrimary: "#134867",
         logoSecondary: "#e2d5a8",
+        greyText: "#777777",
+        greyBorder: "#E5E5E5",
       },
       height: {
         footerMap: "35vh",

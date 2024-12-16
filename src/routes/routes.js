@@ -12,6 +12,7 @@ import Layout from "layout";
 
 /* ROUTES */
 import Homepage from "pages/index";
+import BookAppointment from "pages/book-appointment";
 
 /* STYLES */
 import "styles/globals.css";
@@ -37,6 +38,14 @@ const App = () => {
             element={
               <Layout>
                 <Homepage />
+              </Layout>
+            }
+          />
+          <Route
+            path="/book-appointment"
+            element={
+              <Layout>
+                <BookAppointment />
               </Layout>
             }
           />
