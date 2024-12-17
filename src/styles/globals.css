@@ -4,6 +4,11 @@
 
 /* PACKAGES */
 @import "react-phone-number-input/style.css";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/autoplay";
+@import "swiper/css/effect-fade";
 
 /* FONTS */
 @font-face {
@@ -78,4 +83,13 @@ html {
   border: 1px solid #e5e5e5;
   padding: 1.3vh;
   border-radius: 6px;
+}
+
+/* SWIPER BUTTONS */
+.swiper-button-prev {
+  display: none;
+}
+
+.swiper-button-next {
+  display: none;
 }

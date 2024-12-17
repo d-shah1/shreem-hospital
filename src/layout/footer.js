@@ -6,6 +6,9 @@ import { Link, useLocation } from "react-router-dom";
 /* ICONS */
 import { IoCall, IoMail, IoLocation } from "react-icons/io5";
 
+/* LOGO */
+import Logo from "assets/images/logo.png";
+
 /* NAVIGATION LINKS */
 const navLinks = [
   {
@@ -59,7 +62,7 @@ const Footer = () => {
           <div className="relative xl:absolute lg:absolute top-0 right-0 xl:right-20 lg:right-20 h-full">
             <div className="container-full-width h-full maps">
               <div className="ml-auto w-full xl:w-[35vh] lg:w-[35vh] h-full bg-[#323232] bg-opacity-90 px-5 py-5 xl:py-0 lg:py-0">
-                <div className="flex flex-col justify-center">
+                <div className="h-full flex flex-col justify-center">
                   {/* WORKING HOURS */}
                   <div className="p-0">
                     <h5 className="text-lg font-source-bold text-white">
@@ -69,20 +72,40 @@ const Footer = () => {
                       <div className="pb-1.5 border-b border-white border-opacity-40">
                         <div className="flex items-center justify-between">
                           <p className="text-base font-source-regular text-white">
-                            Monday - Saturday
+                            Mon - Sat
                           </p>
                           <p className="text-base font-source-semibold text-white">
-                            9:00 AM - 5:30 PM
+                            10:30 AM - 1:00 PM
                           </p>
                         </div>
                       </div>
                       <div className="mt-3 pb-1.5 border-b border-white border-opacity-40">
                         <div className="flex items-center justify-between">
                           <p className="text-base font-source-regular text-white">
-                            Sunday
+                            Mon - Sat (OPD)
                           </p>
                           <p className="text-base font-source-semibold text-white">
-                            Closed
+                            4:00 PM - 8:00 PM
+                          </p>
+                        </div>
+                      </div>
+                      <div className="mt-3 pb-1.5 border-b border-white border-opacity-40">
+                        <div className="flex items-center justify-between">
+                          <p className="text-base font-source-regular text-white">
+                            Sunday (OPD)
+                          </p>
+                          <p className="text-base font-source-semibold text-white">
+                            10:30 AM - 1:00 PM
+                          </p>
+                        </div>
+                      </div>
+                      <div className="mt-3 pb-1.5 border-b border-white border-opacity-40">
+                        <div className="flex items-center justify-between">
+                          <p className="text-base font-source-regular text-white">
+                            Emergency Services
+                          </p>
+                          <p className="text-base font-source-semibold text-white">
+                            24/7 Open
                           </p>
                         </div>
                       </div>
@@ -113,11 +136,15 @@ const Footer = () => {
       <footer className="bg-black">
         <div className="container">
           {/* TOP FOOTER */}
-          <div className="py-5 xl:py-8 lg:py-8">
+          <div className="py-5">
             <div className="block xl:flex lg:flex items-center justify-between">
-              <h5 className="text-xl font-inter-extrabold text-white uppercase">
-                LOGO PLACEHOLDER
-              </h5>
+              <div className="bg-white rounded-md p-2">
+                <img
+                  src={Logo}
+                  className="w-auto h-20 object-contain"
+                  alt="Shreem Hospital"
+                />
+              </div>
 
               {/* NAVIGATION LINKS */}
               <div className="mt-5 xl:mt-0 lg:mt-0 flex items-center justify-center xl:justify-normal lg:justify-normal gap-x-5 gap-y-5 xl:gap-10 lg:gap-10 flex-wrap">
@@ -186,7 +213,7 @@ const Footer = () => {
                   <div className="p-0 mt-5 xl:mt-0 lg:mt-0">
                     <div className="flex items-center gap-5 group cursor-pointer">
                       <div className="w-12 h-12 bg-[#232327] rounded-full shrink-0 flex items-center justify-center">
-                        <IoLocation className="w-5 h-5 text-white group-hover:text-red-300 transition-all duration-300 ease-in-out" />
+                        <IoLocation className="w-5 h-5 text-white group-hover:text-orange-300 transition-all duration-300 ease-in-out" />
                       </div>
                       <div>
                         <h5 className="text-base font-source-regular text-white text-opacity-80">
@@ -196,7 +223,7 @@ const Footer = () => {
                           href="https://maps.app.goo.gl/KjFZcHxeLkbnBshy9"
                           target="_blank"
                           rel="noreferrer"
-                          className="block text-lg font-source-semibold text-white group-hover:text-red-300 transition-all duration-300 ease-in-out"
+                          className="block text-lg font-source-semibold text-white group-hover:text-orange-300 transition-all duration-300 ease-in-out"
                         >
                           Bhayli, Vadodara, Gujarat
                         </a>
