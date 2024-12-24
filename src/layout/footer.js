@@ -105,7 +105,7 @@ const Footer = () => {
                             Emergency Services
                           </p>
                           <p className="text-base font-source-semibold text-white">
-                            24/7 Open
+                            24/7 Available
                           </p>
                         </div>
                       </div>

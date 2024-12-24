@@ -181,7 +181,7 @@ const BookAppointment = () => {
                     />
                   </div>
                 </div>
-                <div className="col-span-2 xl:col-span-1 lg:col-span-1">
+                <div className="col-span-2">
                   <label className="text-base font-source-regular text-greyText">
                     Describe your medical condition{" "}
                     <span className="text-red-400">*</span>

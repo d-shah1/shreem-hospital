@@ -21,7 +21,10 @@ import PanktiShah from "assets/images/banners/testimonial-pankti-shah.webp";
 
 const Testimonials = () => {
   return (
-    <motion.div variants={animation} className="py-6 xl:py-12 lg:py-12">
+    <motion.div
+      variants={animation}
+      className="py-6 xl:py-12 lg:py-12 bg-greyBackground bg-opacity-60 shadow-inner"
+    >
       <div className="container">
         <div className="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 gap-y-8 xl:gap-16 lg:gap-16 items-center">
           {/* LEFT SIDE IMAGE */}
@@ -38,7 +41,7 @@ const Testimonials = () => {
                 <img
                   src={PanktiShah}
                   className="w-full h-[25vh] xl:h-testimonial lg:h-testimonial object-cover rounded-xl shadow-md"
-                  alt="Testimonial of Pankti Shah"
+                  alt="Testimonial of Pankti Shah Dave"
                 />
               </div>
             </div>
@@ -47,14 +50,14 @@ const Testimonials = () => {
           {/* RIGHT SIDE TESTIMONIALS */}
           <div className="col-span-1">
             {/* BADGE */}
-            <div className="w-fit bg-logoPrimary border-2 border-white shadow-md rounded-full px-4 py-2">
+            <div className="w-fit bg-orange-400 border-2 border-white shadow-md rounded-full px-4 py-2">
               <p className="text-base font-source-medium text-white">
                 CUSTOMER TESTIMONIALS
               </p>
             </div>
 
             <div className="mt-5">
-              <h2 className="text-3xl xl:text-4xl lg:text-4xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
+              <h2 className="text-3xl xl:text-3xl lg:text-3xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
                 Your satisfaction drives our dedication!
               </h2>
               <p className="mt-3 text-lg font-source-regular text-greyText">

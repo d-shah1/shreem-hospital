@@ -6,7 +6,7 @@ const testimonials = [
   },
   {
     id: 2,
-    desc: "Sheem Hospital is a very well-maintained hospital and trained staff. I went there for dressing as it was nearby to my house and received a prompt service from the doctors even on Sunday. It is a relief for the people in this locality as I haven't seen such a good behaviour from any hospitals nearb especially on a holiday.",
+    desc: "Shreem Hospital is a very well-maintained hospital and trained staff. I went there for dressing as it was nearby to my house and received a prompt service from the doctors even on Sunday. It is a relief for the people in this locality as I haven't seen such a good behaviour from any hospitals nearb especially on a holiday.",
     name: "Harsh Shah",
   },
   {

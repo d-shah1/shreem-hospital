@@ -17,6 +17,7 @@ module.exports = withMT({
         greyText: "#777777",
         greyBorder: "#E5E5E5",
         starColor: "#ffcd53",
+        greyBackground: "#F5F5F5",
       },
       height: {
         footerMap: "42vh",

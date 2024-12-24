@@ -5,6 +5,11 @@ import { motion } from "framer-motion";
 import { containerAnimation } from "config/animation";
 
 /* COMPONENTS */
+import Banner from "components/banner";
+import Counters from "components/counters";
+import AboutUs from "components/about-us";
+import AboutHospital from "components/about-hospital";
+import WhyChooseUs from "components/why-choose-us";
 import Testimonials from "components/testimonials";
 
 const Homepage = () => {
@@ -15,8 +20,20 @@ const Homepage = () => {
       animate="visible"
       className="p-0"
     >
-      {/* HOMEPAGE */}
-      <div className="p-0"></div>
+      {/* BANNER */}
+      <Banner />
+
+      {/* COUNTERS */}
+      <Counters />
+
+      {/* ABOUT DOCTORS */}
+      <AboutUs />
+
+      {/* ABOUT HOSPITAL */}
+      <AboutHospital />
+
+      {/* WHY CHOOSE US */}
+      <WhyChooseUs />
 
       {/* TESTIMONIALS */}
       <Testimonials />
