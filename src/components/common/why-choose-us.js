@@ -40,7 +40,7 @@ const WhyChooseUs = () => {
           <div className="col-span-1">
             <Card className="bg-white shadow-md border border-greyBorder rounded-lg">
               <CardBody className="p-5">
-                <h5 className="text-xl font-source-bold text-black">
+                <h5 className="text-xl font-source-semibold text-black">
                   Expert care
                 </h5>
                 <p className="mt-2 text-base font-source-regular text-greyText leading-relaxed">
@@ -53,7 +53,7 @@ const WhyChooseUs = () => {
           <div className="col-span-1">
             <Card className="bg-white shadow-md border border-greyBorder rounded-lg">
               <CardBody className="p-5">
-                <h5 className="text-xl font-source-bold text-black">
+                <h5 className="text-xl font-source-semibold text-black">
                   Best facilities
                 </h5>
                 <p className="mt-2 text-base font-source-regular text-greyText leading-relaxed">
@@ -66,7 +66,7 @@ const WhyChooseUs = () => {
           <div className="col-span-1">
             <Card className="bg-white shadow-md border border-greyBorder rounded-lg">
               <CardBody className="p-5">
-                <h5 className="text-xl font-source-bold text-black">
+                <h5 className="text-xl font-source-semibold text-black">
                   Affordable Care
                 </h5>
                 <p className="mt-2 text-base font-source-regular text-greyText leading-relaxed">
@@ -79,8 +79,8 @@ const WhyChooseUs = () => {
           <div className="col-span-1">
             <Card className="bg-white shadow-md border border-greyBorder rounded-lg">
               <CardBody className="p-5">
-                <h5 className="text-xl font-source-bold text-black">
-                  Rehabilitation Program:
+                <h5 className="text-xl font-source-semibold text-black">
+                  Rehabilitation Program
                 </h5>
                 <p className="mt-2 text-base font-source-regular text-greyText leading-relaxed">
                   We provide a comprehensive rehabilitation program to help you

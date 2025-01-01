@@ -22,16 +22,6 @@ const navLinks = [
     link: "/about-us",
   },
   {
-    id: 3,
-    name: "Our Expertise",
-    link: "/our-expertise",
-  },
-  {
-    id: 4,
-    name: "What we treat",
-    link: "/what-we-treat",
-  },
-  {
     id: 5,
     name: "Gallery",
     link: "/gallery",
@@ -138,7 +128,7 @@ const Footer = () => {
           {/* TOP FOOTER */}
           <div className="py-5">
             <div className="block xl:flex lg:flex items-center justify-between">
-              <div className="bg-white rounded-md p-2">
+              <div className="w-fit bg-white rounded-md p-2">
                 <img
                   src={Logo}
                   className="w-auto h-20 object-contain"
@@ -147,7 +137,7 @@ const Footer = () => {
               </div>
 
               {/* NAVIGATION LINKS */}
-              <div className="mt-5 xl:mt-0 lg:mt-0 flex items-center justify-center xl:justify-normal lg:justify-normal gap-x-5 gap-y-5 xl:gap-10 lg:gap-10 flex-wrap">
+              <div className="mt-5 xl:mt-0 lg:mt-0 flex items-center justify-normal gap-x-5 gap-y-5 xl:gap-10 lg:gap-10 flex-wrap">
                 {navLinks.map((data) => (
                   <Link
                     to={data.link}
