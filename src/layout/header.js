@@ -115,7 +115,7 @@ const Header = () => {
                           to="/knee-joint-replacement"
                           className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
                         >
-                          Total Knee & Joint Replacement
+                          Knee & Joint Replacement
                         </Link>
                       </MenuItem>
                       <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
@@ -123,7 +123,7 @@ const Header = () => {
                           to="/hip-joint-replacement"
                           className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
                         >
-                          Total Hip & Joint Replacement
+                          Hip & Joint Replacement
                         </Link>
                       </MenuItem>
                       <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">

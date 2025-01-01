@@ -14,6 +14,7 @@ import Layout from "layout";
 import Homepage from "pages/index";
 import AboutUs from "pages/about-us";
 import BookAppointment from "pages/book-appointment";
+import KneeJointReplacement from "pages/knee-joint-replacement";
 
 /* STYLES */
 import "styles/globals.css";
@@ -55,6 +56,14 @@ const App = () => {
             element={
               <Layout>
                 <BookAppointment />
+              </Layout>
+            }
+          />
+          <Route
+            path="/knee-joint-replacement"
+            element={
+              <Layout>
+                <KneeJointReplacement />
               </Layout>
             }
           />

@@ -61,7 +61,7 @@ const Footer = () => {
 
           <div className="relative xl:absolute lg:absolute top-0 right-0 xl:right-20 lg:right-20 h-full">
             <div className="container-full-width h-full maps">
-              <div className="ml-auto w-full xl:w-[35vh] lg:w-[35vh] h-full bg-[#323232] bg-opacity-90 px-5 py-5 xl:py-0 lg:py-0">
+              <div className="ml-auto w-full xl:w-[35vh] lg:w-[35vh] h-full bg-[#323232] bg-opacity-100 xl:bg-opacity-90 lg:bg-opacity-90 px-5 py-5 xl:py-0 lg:py-0">
                 <div className="h-full flex flex-col justify-center">
                   {/* WORKING HOURS */}
                   <div className="p-0">
