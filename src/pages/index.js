@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import { containerAnimation } from "config/animation";
 
 /* COMPONENTS */
-import Banner from "components/banner";
-import Counters from "components/counters";
-import AboutUs from "components/about-us";
-import AboutHospital from "components/about-hospital";
-import WhyChooseUs from "components/why-choose-us";
-import Testimonials from "components/testimonials";
+import Banner from "components/home/banner";
+import Counters from "components/home/counters";
+import AboutUs from "components/home/about-us";
+import AboutHospital from "components/home/about-hospital";
+import WhyChooseUs from "components/home/why-choose-us";
+import Testimonials from "components/home/testimonials";
 
 const Homepage = () => {
   return (

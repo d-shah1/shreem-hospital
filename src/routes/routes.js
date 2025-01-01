@@ -12,6 +12,7 @@ import Layout from "layout";
 
 /* ROUTES */
 import Homepage from "pages/index";
+import AboutUs from "pages/about-us";
 import BookAppointment from "pages/book-appointment";
 
 /* STYLES */
@@ -38,6 +39,14 @@ const App = () => {
             element={
               <Layout>
                 <Homepage />
+              </Layout>
+            }
+          />
+          <Route
+            path="/about-us"
+            element={
+              <Layout>
+                <AboutUs />
               </Layout>
             }
           />

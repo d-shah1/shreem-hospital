@@ -49,7 +49,7 @@ const Header = () => {
           {/* NAVIGATION LINKS AND BUTTON */}
           <div className="hidden xl:flex lg:flex items-center gap-12">
             <Link
-              href="/"
+              to="/"
               className={`block relative text-base font-source-medium ${
                 location.pathname === "/" ? "text-orange-400" : "text-black"
               } hover:text-orange-400 transition-all duration-300 ease-in-out`}
@@ -63,7 +63,7 @@ const Header = () => {
             </Link>
 
             <Link
-              href="/about-us"
+              to="/about-us"
               className={`block relative text-base font-source-medium ${
                 location.pathname === "/about-us"
                   ? "text-orange-400"
@@ -112,7 +112,7 @@ const Header = () => {
                     <MenuList className="w-[25vh] p-2 shadow-md">
                       <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
                         <Link
-                          href="/knee-joint-replacement"
+                          to="/knee-joint-replacement"
                           className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
                         >
                           Total Knee & Joint Replacement
@@ -120,7 +120,7 @@ const Header = () => {
                       </MenuItem>
                       <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
                         <Link
-                          href="/hip-joint-replacement"
+                          to="/hip-joint-replacement"
                           className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
                         >
                           Total Hip & Joint Replacement
@@ -128,7 +128,7 @@ const Header = () => {
                       </MenuItem>
                       <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
                         <Link
-                          href="/shoulder-joint-replacement"
+                          to="/shoulder-joint-replacement"
                           className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
                         >
                           Shoulder Joint Replacement
@@ -139,7 +139,7 @@ const Header = () => {
                 </MenuItem>
                 <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
                   <Link
-                    href="/ortho-biologic-treatments"
+                    to="/ortho-biologic-treatments"
                     className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
                   >
                     Ortho Biologic Treatments
@@ -166,7 +166,7 @@ const Header = () => {
                     <MenuList className="w-[25vh] p-2 shadow-md">
                       <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
                         <Link
-                          href="/shoulder-arthroscopy"
+                          to="/shoulder-arthroscopy"
                           className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
                         >
                           Shoulder Arthroscopy
@@ -174,7 +174,7 @@ const Header = () => {
                       </MenuItem>
                       <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
                         <Link
-                          href="/knee-arthroscopy"
+                          to="/knee-arthroscopy"
                           className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
                         >
                           Knee Arthroscopy
@@ -182,7 +182,7 @@ const Header = () => {
                       </MenuItem>
                       <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
                         <Link
-                          href="/ankle-arthroscopy"
+                          to="/ankle-arthroscopy"
                           className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
                         >
                           Ankle Arthroscopy
@@ -190,131 +190,7 @@ const Header = () => {
                       </MenuItem>
                       <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
                         <Link
-                          href="/elbow-arthroscopy"
-                          className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
-                        >
-                          Elbow Arthroscopy
-                        </Link>
-                      </MenuItem>
-                    </MenuList>
-                  </Menu>
-                </MenuItem>
-              </MenuList>
-            </Menu>
-
-            <Menu
-              animate={{
-                mount: { scale: 1, y: 0 },
-                unmount: { scale: 0, y: 25 },
-              }}
-              allowHover
-            >
-              <MenuHandler>
-                <p className="block cursor-pointer relative text-base font-source-medium text-black hover:text-orange-400 transition-all duration-300 ease-in-out">
-                  Eye Care Treatments
-                </p>
-              </MenuHandler>
-              <MenuList className="w-[30vh] p-2 shadow-md">
-                <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
-                  <Menu
-                    animate={{
-                      mount: { scale: 1, y: 0 },
-                      unmount: { scale: 0, y: 25 },
-                    }}
-                    allowHover
-                    placement="right-start"
-                    offset={20}
-                  >
-                    <MenuHandler>
-                      <div className="group flex items-center justify-between">
-                        <p className="text-base font-source-regular text-black group-hover:text-orange-400 transition-all duration-300 ease-in-out cursor-pointer">
-                          Joint Replacement
-                        </p>
-                        <FaChevronRight className="w-2.5 h-2.5 text-black group-hover:text-orange-400" />
-                      </div>
-                    </MenuHandler>
-                    <MenuList className="w-[25vh] p-2 shadow-md">
-                      <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
-                        <Link
-                          href="/knee-joint-replacement"
-                          className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
-                        >
-                          Total Knee & Joint Replacement
-                        </Link>
-                      </MenuItem>
-                      <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
-                        <Link
-                          href="/hip-joint-replacement"
-                          className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
-                        >
-                          Total Hip & Joint Replacement
-                        </Link>
-                      </MenuItem>
-                      <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
-                        <Link
-                          href="/shoulder-joint-replacement"
-                          className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
-                        >
-                          Shoulder Joint Replacement
-                        </Link>
-                      </MenuItem>
-                    </MenuList>
-                  </Menu>
-                </MenuItem>
-                <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
-                  <Link
-                    href="/ortho-biologic-treatments"
-                    className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
-                  >
-                    Ortho Biologic Treatments
-                  </Link>
-                </MenuItem>
-                <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
-                  <Menu
-                    animate={{
-                      mount: { scale: 1, y: 0 },
-                      unmount: { scale: 0, y: 25 },
-                    }}
-                    allowHover
-                    placement="right-start"
-                    offset={20}
-                  >
-                    <MenuHandler>
-                      <div className="group flex items-center justify-between">
-                        <p className="text-base font-source-regular text-black group-hover:text-orange-400 transition-all duration-300 ease-in-out cursor-pointer">
-                          Arthroscopy & Sports Injury
-                        </p>
-                        <FaChevronRight className="w-2.5 h-2.5 text-black group-hover:text-orange-400" />
-                      </div>
-                    </MenuHandler>
-                    <MenuList className="w-[25vh] p-2 shadow-md">
-                      <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
-                        <Link
-                          href="/shoulder-arthroscopy"
-                          className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
-                        >
-                          Shoulder Arthroscopy
-                        </Link>
-                      </MenuItem>
-                      <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
-                        <Link
-                          href="/knee-arthroscopy"
-                          className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
-                        >
-                          Knee Arthroscopy
-                        </Link>
-                      </MenuItem>
-                      <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
-                        <Link
-                          href="/ankle-arthroscopy"
-                          className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
-                        >
-                          Ankle Arthroscopy
-                        </Link>
-                      </MenuItem>
-                      <MenuItem className="group py-3 px-4 bg-white hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
-                        <Link
-                          href="/elbow-arthroscopy"
+                          to="/elbow-arthroscopy"
                           className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
                         >
                           Elbow Arthroscopy
@@ -327,7 +203,7 @@ const Header = () => {
             </Menu>
 
             <Link
-              href="/gallery"
+              to="/gallery"
               className={`block relative text-base font-source-medium ${
                 location.pathname === "/gallery"
                   ? "text-orange-400"
@@ -363,7 +239,7 @@ const Header = () => {
       <Collapse open={showMenu}>
         <div className="bg-white border-t border-greyBorder p-5 text-black z-50">
           <Link
-            href="/"
+            to="/"
             className={`block relative text-base font-source-medium ${
               location.pathname === "/" ? "text-orange-400" : "text-black"
             } hover:text-orange-400 transition-all duration-300 ease-in-out`}
@@ -372,7 +248,7 @@ const Header = () => {
           </Link>
 
           <Link
-            href="/about-us"
+            to="/about-us"
             className={`mt-4 block relative text-base font-source-medium ${
               location.pathname === "/about-us"
                 ? "text-orange-400"
