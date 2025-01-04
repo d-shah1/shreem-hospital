@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import { containerAnimation } from "config/animation";
 
 /* COMPONENTS */
-import Banner from "components/shoulder-arthroscopy/banner";
-import About from "components/shoulder-arthroscopy/about";
+import Banner from "components/orthopaedic/ankle-arthroscopy/banner";
+import About from "components/orthopaedic/ankle-arthroscopy/about";
 import WhyChooseUs from "components/common/why-choose-us";
-import OtherContent from "components/shoulder-arthroscopy/content";
+import OtherContent from "components/orthopaedic/ankle-arthroscopy/content";
 
-const ShoulderArthroscopy = () => {
+const AnkleArthroscopy = () => {
   return (
     <motion.section
       variants={containerAnimation}
@@ -33,4 +33,4 @@ const ShoulderArthroscopy = () => {
   );
 };
 
-export default ShoulderArthroscopy;
+export default AnkleArthroscopy;

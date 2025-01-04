@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import { containerAnimation } from "config/animation";
 
 /* COMPONENTS */
-import Banner from "components/knee-joint-replacement/banner";
-import About from "components/knee-joint-replacement/about";
+import Banner from "components/orthopaedic/ortho-biologic-treatments/banner";
+import About from "components/orthopaedic/ortho-biologic-treatments/about";
 import WhyChooseUs from "components/common/why-choose-us";
-import OtherContent from "components/knee-joint-replacement/content";
+import OtherContent from "components/orthopaedic/ortho-biologic-treatments/content";
 
-const KneeJointReplacement = () => {
+const OrthoBiologicTreatments = () => {
   return (
     <motion.section
       variants={containerAnimation}
@@ -33,4 +33,4 @@ const KneeJointReplacement = () => {
   );
 };
 
-export default KneeJointReplacement;
+export default OrthoBiologicTreatments;

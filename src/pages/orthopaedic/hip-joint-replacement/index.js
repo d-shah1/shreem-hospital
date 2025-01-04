@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import { containerAnimation } from "config/animation";
 
 /* COMPONENTS */
-import Banner from "components/shoulder-joint-replacement/banner";
-import About from "components/shoulder-joint-replacement/about";
+import Banner from "components/orthopaedic/hip-joint-replacement/banner";
+import About from "components/orthopaedic/hip-joint-replacement/about";
 import WhyChooseUs from "components/common/why-choose-us";
-import OtherContent from "components/shoulder-joint-replacement/content";
+import OtherContent from "components/orthopaedic/hip-joint-replacement/content";
 
-const ShoulderJointReplacement = () => {
+const HipJointReplacement = () => {
   return (
     <motion.section
       variants={containerAnimation}
@@ -33,4 +33,4 @@ const ShoulderJointReplacement = () => {
   );
 };
 
-export default ShoulderJointReplacement;
+export default HipJointReplacement;

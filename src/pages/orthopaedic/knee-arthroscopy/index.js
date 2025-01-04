@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import { containerAnimation } from "config/animation";
 
 /* COMPONENTS */
-import Banner from "components/ankle-arthroscopy/banner";
-import About from "components/ankle-arthroscopy/about";
+import Banner from "components/orthopaedic/knee-arthroscopy/banner";
+import About from "components/orthopaedic/knee-arthroscopy/about";
 import WhyChooseUs from "components/common/why-choose-us";
-import OtherContent from "components/ankle-arthroscopy/content";
+import OtherContent from "components/orthopaedic/knee-arthroscopy/content";
 
-const AnkleArthroscopy = () => {
+const KneeArthroscopy = () => {
   return (
     <motion.section
       variants={containerAnimation}
@@ -33,4 +33,4 @@ const AnkleArthroscopy = () => {
   );
 };
 
-export default AnkleArthroscopy;
+export default KneeArthroscopy;

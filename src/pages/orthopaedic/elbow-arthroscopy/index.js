@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 import { containerAnimation } from "config/animation";
 
 /* COMPONENTS */
-import Banner from "components/elbow-arthroscopy/banner";
-import About from "components/elbow-arthroscopy/about";
+import Banner from "components/orthopaedic/elbow-arthroscopy/banner";
+import About from "components/orthopaedic/elbow-arthroscopy/about";
 import WhyChooseUs from "components/common/why-choose-us";
-import OtherContent from "components/elbow-arthroscopy/content";
+import OtherContent from "components/orthopaedic/elbow-arthroscopy/content";
 
 const ElbowArthroscopy = () => {
   return (

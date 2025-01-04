@@ -10,18 +10,23 @@ import {
 /* LAYOUT FILES */
 import Layout from "layout";
 
-/* ROUTES */
+/* NORMAL PAGE ROUTES */
 import Homepage from "pages/index";
 import AboutUs from "pages/about-us";
 import BookAppointment from "pages/book-appointment";
-import KneeJointReplacement from "pages/knee-joint-replacement";
-import HipJointReplacement from "pages/hip-joint-replacement";
-import ShoulderJointReplacement from "pages/shoulder-joint-replacement";
-import OrthoBiologicTreatments from "pages/ortho-biologic-treatments";
-import ShoulderArthroscopy from "pages/shoulder-arthroscopy";
-import KneeArthroscopy from "pages/knee-arthroscopy";
-import AnkleArthroscopy from "pages/ankle-arthroscopy";
-import ElbowArthroscopy from "pages/elbow-arthroscopy";
+
+/* ORTHOPAEDIC PAGES ROUTES */
+import KneeJointReplacement from "pages/orthopaedic/knee-joint-replacement";
+import HipJointReplacement from "pages/orthopaedic/hip-joint-replacement";
+import ShoulderJointReplacement from "pages/orthopaedic/shoulder-joint-replacement";
+import OrthoBiologicTreatments from "pages/orthopaedic/ortho-biologic-treatments";
+import ShoulderArthroscopy from "pages/orthopaedic/shoulder-arthroscopy";
+import KneeArthroscopy from "pages/orthopaedic/knee-arthroscopy";
+import AnkleArthroscopy from "pages/orthopaedic/ankle-arthroscopy";
+import ElbowArthroscopy from "pages/orthopaedic/elbow-arthroscopy";
+
+/* EYE CARE TREATMENT PAGES ROUTES */
+import GlaucomaManagement from "pages/eye-care/glaucoma-management";
 
 /* STYLES */
 import "styles/globals.css";
@@ -127,6 +132,14 @@ const App = () => {
             element={
               <Layout>
                 <ElbowArthroscopy />
+              </Layout>
+            }
+          />
+          <Route
+            path="/glaucoma-management"
+            element={
+              <Layout>
+                <GlaucomaManagement />
               </Layout>
             }
           />

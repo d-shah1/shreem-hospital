@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import { containerAnimation } from "config/animation";
 
 /* COMPONENTS */
-import Banner from "components/ortho-biologic-treatments/banner";
-import About from "components/ortho-biologic-treatments/about";
+import Banner from "components/orthopaedic/shoulder-joint-replacement/banner";
+import About from "components/orthopaedic/shoulder-joint-replacement/about";
 import WhyChooseUs from "components/common/why-choose-us";
-import OtherContent from "components/ortho-biologic-treatments/content";
+import OtherContent from "components/orthopaedic/shoulder-joint-replacement/content";
 
-const OrthoBiologicTreatments = () => {
+const ShoulderJointReplacement = () => {
   return (
     <motion.section
       variants={containerAnimation}
@@ -33,4 +33,4 @@ const OrthoBiologicTreatments = () => {
   );
 };
 
-export default OrthoBiologicTreatments;
+export default ShoulderJointReplacement;

@@ -202,6 +202,78 @@ const Header = () => {
               </MenuList>
             </Menu>
 
+            <Menu
+              animate={{
+                mount: { scale: 1, y: 0 },
+                unmount: { scale: 0, y: 25 },
+              }}
+              allowHover
+            >
+              <MenuHandler>
+                <p className="block cursor-pointer relative text-base font-source-medium text-black hover:text-orange-400 transition-all duration-300 ease-in-out">
+                  Eye Treatments
+                </p>
+              </MenuHandler>
+              <MenuList className="w-[30vh] p-2 shadow-md">
+                <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
+                  <Link
+                    to="/comprehensive-eye-care"
+                    className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
+                  >
+                    Comprehensive eye care
+                  </Link>
+                </MenuItem>
+                <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
+                  <Link
+                    to="/cataract-surgery"
+                    className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
+                  >
+                    Cataract surgey
+                  </Link>
+                </MenuItem>
+                <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
+                  <Link
+                    to="/optic-nerve-disorders"
+                    className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
+                  >
+                    Optic nerve related disorders
+                  </Link>
+                </MenuItem>
+                <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
+                  <Link
+                    to="/pediatric-eye-care"
+                    className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
+                  >
+                    Pediatric eye care
+                  </Link>
+                </MenuItem>
+                <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
+                  <Link
+                    to="/retinal-disease-management"
+                    className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
+                  >
+                    Retinal Disease Management
+                  </Link>
+                </MenuItem>
+                <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
+                  <Link
+                    to="/glaucoma-management"
+                    className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
+                  >
+                    Glaucoma management
+                  </Link>
+                </MenuItem>
+                <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
+                  <Link
+                    to="/optical-services"
+                    className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
+                  >
+                    Optical services
+                  </Link>
+                </MenuItem>
+              </MenuList>
+            </Menu>
+
             <Link
               to="/gallery"
               className={`block relative text-base font-source-medium ${

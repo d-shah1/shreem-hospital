@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import { containerAnimation } from "config/animation";
 
 /* COMPONENTS */
-import Banner from "components/knee-arthroscopy/banner";
-import About from "components/knee-arthroscopy/about";
+import Banner from "components/orthopaedic/knee-joint-replacement/banner";
+import About from "components/orthopaedic/knee-joint-replacement/about";
 import WhyChooseUs from "components/common/why-choose-us";
-import OtherContent from "components/knee-arthroscopy/content";
+import OtherContent from "components/orthopaedic/knee-joint-replacement/content";
 
-const KneeArthroscopy = () => {
+const KneeJointReplacement = () => {
   return (
     <motion.section
       variants={containerAnimation}
@@ -33,4 +33,4 @@ const KneeArthroscopy = () => {
   );
 };
 
-export default KneeArthroscopy;
+export default KneeJointReplacement;
