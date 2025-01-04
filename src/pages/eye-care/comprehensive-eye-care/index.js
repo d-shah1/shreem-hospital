@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import { containerAnimation } from "config/animation";
 
 /* COMPONENTS */
-import Banner from "components/orthopaedic/shoulder-joint-replacement/banner";
-import About from "components/orthopaedic/shoulder-joint-replacement/about";
-import { WhyChooseUs } from "components/common/why-choose-us";
-import OtherContent from "components/orthopaedic/shoulder-joint-replacement/content";
+import Banner from "components/eye-care/comprehensive-eye-care/banner";
+import About from "components/eye-care/comprehensive-eye-care/about";
+import { WhyChooseUsEye } from "components/common/why-choose-us";
+import OtherContent from "components/eye-care/comprehensive-eye-care/content";
 
-const ShoulderJointReplacement = () => {
+const ComprehensiveEyeCare = () => {
   return (
     <motion.section
       variants={containerAnimation}
@@ -25,7 +25,7 @@ const ShoulderJointReplacement = () => {
       <About />
 
       {/* WHY CHOOSE US */}
-      <WhyChooseUs />
+      <WhyChooseUsEye />
 
       {/* OTHER CONTENT */}
       <OtherContent />
@@ -33,4 +33,4 @@ const ShoulderJointReplacement = () => {
   );
 };
 
-export default ShoulderJointReplacement;
+export default ComprehensiveEyeCare;

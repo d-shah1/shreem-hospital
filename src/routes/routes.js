@@ -27,6 +27,12 @@ import ElbowArthroscopy from "pages/orthopaedic/elbow-arthroscopy";
 
 /* EYE CARE TREATMENT PAGES ROUTES */
 import GlaucomaManagement from "pages/eye-care/glaucoma-management";
+import RetinalDiseaseManagement from "pages/eye-care/retinal-disease-management";
+import PediatricEyeCare from "pages/eye-care/pediatric-eye-care";
+import OpticNerveDisorders from "pages/eye-care/optic-nerve-related-disorders";
+import CataractSurgery from "pages/eye-care/cataract-surgery";
+import ComprehensiveEyeCare from "pages/eye-care/comprehensive-eye-care";
+import LasikTreatment from "pages/eye-care/lasik-treatment";
 
 /* STYLES */
 import "styles/globals.css";
@@ -46,104 +52,55 @@ const App = () => {
     <div className="app">
       <Router>
         <ScrollToTop />
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <Layout>
-                <Homepage />
-              </Layout>
-            }
-          />
-          <Route
-            path="/about-us"
-            element={
-              <Layout>
-                <AboutUs />
-              </Layout>
-            }
-          />
-          <Route
-            path="/book-appointment"
-            element={
-              <Layout>
-                <BookAppointment />
-              </Layout>
-            }
-          />
-          <Route
-            path="/knee-joint-replacement"
-            element={
-              <Layout>
-                <KneeJointReplacement />
-              </Layout>
-            }
-          />
-          <Route
-            path="/hip-joint-replacement"
-            element={
-              <Layout>
-                <HipJointReplacement />
-              </Layout>
-            }
-          />
-          <Route
-            path="/shoulder-joint-replacement"
-            element={
-              <Layout>
-                <ShoulderJointReplacement />
-              </Layout>
-            }
-          />
-          <Route
-            path="/ortho-biologic-treatments"
-            element={
-              <Layout>
-                <OrthoBiologicTreatments />
-              </Layout>
-            }
-          />
-          <Route
-            path="/shoulder-arthroscopy"
-            element={
-              <Layout>
-                <ShoulderArthroscopy />
-              </Layout>
-            }
-          />
-          <Route
-            path="/knee-arthroscopy"
-            element={
-              <Layout>
-                <KneeArthroscopy />
-              </Layout>
-            }
-          />
-          <Route
-            path="/ankle-arthroscopy"
-            element={
-              <Layout>
-                <AnkleArthroscopy />
-              </Layout>
-            }
-          />
-          <Route
-            path="/elbow-arthroscopy"
-            element={
-              <Layout>
-                <ElbowArthroscopy />
-              </Layout>
-            }
-          />
-          <Route
-            path="/glaucoma-management"
-            element={
-              <Layout>
-                <GlaucomaManagement />
-              </Layout>
-            }
-          />
-        </Routes>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/book-appointment" element={<BookAppointment />} />
+            <Route
+              path="/knee-joint-replacement"
+              element={<KneeJointReplacement />}
+            />
+            <Route
+              path="/hip-joint-replacement"
+              element={<HipJointReplacement />}
+            />
+            <Route
+              path="/shoulder-joint-replacement"
+              element={<ShoulderJointReplacement />}
+            />
+            <Route
+              path="/ortho-biologic-treatments"
+              element={<OrthoBiologicTreatments />}
+            />
+            <Route
+              path="/shoulder-arthroscopy"
+              element={<ShoulderArthroscopy />}
+            />
+            <Route path="/knee-arthroscopy" element={<KneeArthroscopy />} />
+            <Route path="/ankle-arthroscopy" element={<AnkleArthroscopy />} />
+            <Route path="/elbow-arthroscopy" element={<ElbowArthroscopy />} />
+            <Route
+              path="/glaucoma-management"
+              element={<GlaucomaManagement />}
+            />
+            <Route
+              path="/retinal-disease-management"
+              element={<RetinalDiseaseManagement />}
+            />
+            <Route path="/pediatric-eye-care" element={<PediatricEyeCare />} />
+            <Route
+              path="/optic-nerve-disorders"
+              element={<OpticNerveDisorders />}
+            />
+            <Route path="/cataract-surgery" element={<CataractSurgery />} />
+            <Route
+              path="/comprehensive-eye-care"
+              element={<ComprehensiveEyeCare />}
+            />
+            <Route path="/lasik-treatment" element={<LasikTreatment />} />
+          </Routes>
+        </Layout>
       </Router>
     </div>
   );

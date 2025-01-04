@@ -7,7 +7,7 @@ import { containerAnimation } from "config/animation";
 /* COMPONENTS */
 import Banner from "components/orthopaedic/ortho-biologic-treatments/banner";
 import About from "components/orthopaedic/ortho-biologic-treatments/about";
-import WhyChooseUs from "components/common/why-choose-us";
+import { WhyChooseUs } from "components/common/why-choose-us";
 import OtherContent from "components/orthopaedic/ortho-biologic-treatments/content";
 
 const OrthoBiologicTreatments = () => {

@@ -7,7 +7,7 @@ import { containerAnimation } from "config/animation";
 /* COMPONENTS */
 import Banner from "components/orthopaedic/hip-joint-replacement/banner";
 import About from "components/orthopaedic/hip-joint-replacement/about";
-import WhyChooseUs from "components/common/why-choose-us";
+import { WhyChooseUs } from "components/common/why-choose-us";
 import OtherContent from "components/orthopaedic/hip-joint-replacement/content";
 
 const HipJointReplacement = () => {

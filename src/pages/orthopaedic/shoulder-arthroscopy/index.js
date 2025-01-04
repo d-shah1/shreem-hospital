@@ -7,7 +7,7 @@ import { containerAnimation } from "config/animation";
 /* COMPONENTS */
 import Banner from "components/orthopaedic/shoulder-arthroscopy/banner";
 import About from "components/orthopaedic/shoulder-arthroscopy/about";
-import WhyChooseUs from "components/common/why-choose-us";
+import { WhyChooseUs } from "components/common/why-choose-us";
 import OtherContent from "components/orthopaedic/shoulder-arthroscopy/content";
 
 const ShoulderArthroscopy = () => {

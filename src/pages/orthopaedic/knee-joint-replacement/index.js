@@ -7,7 +7,7 @@ import { containerAnimation } from "config/animation";
 /* COMPONENTS */
 import Banner from "components/orthopaedic/knee-joint-replacement/banner";
 import About from "components/orthopaedic/knee-joint-replacement/about";
-import WhyChooseUs from "components/common/why-choose-us";
+import { WhyChooseUs } from "components/common/why-choose-us";
 import OtherContent from "components/orthopaedic/knee-joint-replacement/content";
 
 const KneeJointReplacement = () => {

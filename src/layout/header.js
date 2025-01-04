@@ -27,6 +27,7 @@ const Header = () => {
   /* COLLAPSE STATES */
   const [showMenu, setShowMenu] = useState(false);
   const [orthoMenu, setOrthoMenu] = useState(false);
+  const [eyeMenu, setEyeMenu] = useState(false);
   const [jointReplacement, setJointReplacement] = useState(false);
   const [sportsInjury, setSportsInjury] = useState(false);
 
@@ -217,6 +218,14 @@ const Header = () => {
               <MenuList className="w-[30vh] p-2 shadow-md">
                 <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
                   <Link
+                    to="/lasik-treatment"
+                    className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
+                  >
+                    Lasik Treatment
+                  </Link>
+                </MenuItem>
+                <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
+                  <Link
                     to="/comprehensive-eye-care"
                     className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
                   >
@@ -263,18 +272,10 @@ const Header = () => {
                     Glaucoma management
                   </Link>
                 </MenuItem>
-                <MenuItem className="group py-3 px-4 bg-transparent hover:bg-logoRed hover:bg-opacity-10 rounded-md transition-all duration-300 ease-in-out">
-                  <Link
-                    to="/optical-services"
-                    className="block text-base text-black font-source-regular group-hover:text-orange-400 transition-all duration-300 ease-in-out text-left leading-normal"
-                  >
-                    Optical services
-                  </Link>
-                </MenuItem>
               </MenuList>
             </Menu>
 
-            <Link
+            {/* <Link
               to="/gallery"
               className={`block relative text-base font-source-medium ${
                 location.pathname === "/gallery"
@@ -288,7 +289,7 @@ const Header = () => {
                   <div className="w-full h-[0.3vh] bg-orange-400 rounded-full" />
                 </div>
               )}
-            </Link>
+            </Link> */}
 
             <Link to="/book-appointment" className="block">
               <Button className="shadow-none hover:shadow-none bg-logoPrimary hover:bg-opacity-80 transition-all duration-300 ease-in-out rounded-md normal-case text-base px-5 py-3 text-white font-source-regular">
@@ -429,7 +430,66 @@ const Header = () => {
             </Collapse>
           </Collapse>
 
-          <Link
+          <div
+            className="mt-4 flex items-center gap-2"
+            onClick={() => setEyeMenu(!eyeMenu)}
+          >
+            <p className="block relative text-base font-source-medium text-black hover:text-orange-400 transition-all duration-300 ease-in-out">
+              Eye Treatments
+            </p>
+            {eyeMenu ? (
+              <IoChevronDownOutline className="w-4 h-4 text-black" />
+            ) : (
+              <IoChevronForwardOutline className="w-4 h-4 text-black" />
+            )}
+          </div>
+
+          <Collapse open={eyeMenu} className="pl-5">
+            <Link
+              to="/lasik-treatment"
+              className="mt-4 block text-base text-black font-source-medium transition-all duration-300 ease-in-out text-left leading-normal"
+            >
+              Lasik Treatment
+            </Link>
+            <Link
+              to="/comprehensive-eye-care"
+              className="mt-4 block text-base text-black font-source-medium transition-all duration-300 ease-in-out text-left leading-normal"
+            >
+              Comprehensive Eye Care
+            </Link>
+            <Link
+              to="/cataract-surgery"
+              className="mt-4 block text-base text-black font-source-medium transition-all duration-300 ease-in-out text-left leading-normal"
+            >
+              Cataract Surgery
+            </Link>
+            <Link
+              to="/optic-nerve-disorders"
+              className="mt-4 block text-base text-black font-source-medium transition-all duration-300 ease-in-out text-left leading-normal"
+            >
+              Optic nerve related disorders
+            </Link>
+            <Link
+              to="/pediatric-eye-care"
+              className="mt-4 block text-base text-black font-source-medium transition-all duration-300 ease-in-out text-left leading-normal"
+            >
+              Pediatric eye care
+            </Link>
+            <Link
+              to="/retinal-disease-management"
+              className="mt-4 block text-base text-black font-source-medium transition-all duration-300 ease-in-out text-left leading-normal"
+            >
+              Retinal Disease Management
+            </Link>
+            <Link
+              to="/glaucoma-management"
+              className="mt-4 block text-base text-black font-source-medium transition-all duration-300 ease-in-out text-left leading-normal"
+            >
+              Glaucoma Management
+            </Link>
+          </Collapse>
+
+          {/* <Link
             href="/gallery"
             className={`mt-4 block relative text-base font-source-medium ${
               location.pathname === "/gallery"
@@ -443,7 +503,7 @@ const Header = () => {
                 <div className="w-full h-[0.3vh] bg-orange-400 rounded-full" />
               </div>
             )}
-          </Link>
+          </Link> */}
 
           <Link to="/book-appointment" className="block mt-4">
             <Button className="shadow-none hover:shadow-none bg-logoPrimary hover:bg-opacity-80 transition-all duration-300 ease-in-out rounded-md normal-case text-base px-5 py-3 text-white font-source-regular">

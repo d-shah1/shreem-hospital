@@ -7,7 +7,7 @@ import { containerAnimation } from "config/animation";
 /* COMPONENTS */
 import Banner from "components/orthopaedic/ankle-arthroscopy/banner";
 import About from "components/orthopaedic/ankle-arthroscopy/about";
-import WhyChooseUs from "components/common/why-choose-us";
+import { WhyChooseUs } from "components/common/why-choose-us";
 import OtherContent from "components/orthopaedic/ankle-arthroscopy/content";
 
 const AnkleArthroscopy = () => {
