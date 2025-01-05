@@ -93,3 +93,9 @@ html {
 .swiper-button-next {
   display: none;
 }
+
+.Toastify__toast {
+  font-family: "Source-Regular", sans-serif;
+  color: black;
+  font-size: 1.6vh;
+}
