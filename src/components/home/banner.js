@@ -11,12 +11,14 @@ import { animation } from "config/animation";
 import { Button } from "@material-tailwind/react";
 
 /* ASSETS */
-import Main01 from "assets/images/banners/main-01.jpg";
-import Main02 from "assets/images/banners/main-02.jpg";
-import Main03 from "assets/images/banners/main-03.jpeg";
-import Main04 from "assets/images/banners/main-04.jpg";
-import Main05 from "assets/images/banners/main-05.jpg";
-import Main06 from "assets/images/banners/main-06.jpeg";
+import Main01 from "assets/images/banners/banner-01.jpeg";
+import Main02 from "assets/images/banners/banner-02.jpeg";
+import Main03 from "assets/images/banners/banner-03.jpeg";
+import Main04 from "assets/images/banners/banner-04.jpeg";
+import Main06 from "assets/images/banners/banner-06.jpeg";
+import Main07 from "assets/images/banners/banner-07.jpeg";
+import Main08 from "assets/images/banners/banner-08.jpeg";
+import Main09 from "assets/images/banners/banner-09.jpeg";
 
 const Banner = () => {
   return (
@@ -98,16 +100,31 @@ const Banner = () => {
               alt="Shreem Hospital"
             />
           </div>
+
           <div className="px-2.5">
             <img
-              src={Main05}
+              src={Main06}
               className="w-[40vh] h-[40vh] object-cover rounded-xl"
               alt="Shreem Hospital"
             />
           </div>
           <div className="px-2.5">
             <img
-              src={Main06}
+              src={Main07}
+              className="w-[40vh] h-[40vh] object-cover rounded-xl"
+              alt="Shreem Hospital"
+            />
+          </div>
+          <div className="px-2.5">
+            <img
+              src={Main08}
+              className="w-[40vh] h-[40vh] object-cover rounded-xl"
+              alt="Shreem Hospital"
+            />
+          </div>
+          <div className="px-2.5">
+            <img
+              src={Main09}
               className="w-[40vh] h-[40vh] object-cover rounded-xl"
               alt="Shreem Hospital"
             />

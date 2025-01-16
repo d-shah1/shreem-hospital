@@ -5,8 +5,7 @@ import { motion } from "framer-motion";
 import { animation } from "config/animation";
 
 /* IMAGES */
-import AnshulDave from "assets/images/banners/testimonial-anshul-dave.webp";
-import PanktiShah from "assets/images/banners/testimonial-pankti-shah.webp";
+import AboutImage01 from "assets/images/about-section-full.jpeg";
 
 const AboutUs = () => {
   return (
@@ -63,22 +62,11 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="col-span-1">
-            <div className="grid grid-cols-2 gap-5">
-              <div className="col-span-1">
-                <img
-                  src={AnshulDave}
-                  className="w-full h-[25vh] xl:h-testimonial lg:h-testimonial object-cover rounded-xl shadow-md border-2 border-logoSecondary"
-                  alt="Testimonial of Anshul Dave"
-                />
-              </div>
-              <div className="col-span-1">
-                <img
-                  src={PanktiShah}
-                  className="w-full h-[25vh] xl:h-testimonial lg:h-testimonial object-cover rounded-xl shadow-md border-2 border-logoSecondary"
-                  alt="Testimonial of Pankti Shah Dave"
-                />
-              </div>
-            </div>
+            <img
+              src={AboutImage01}
+              className="w-full h-[25vh] xl:h-testimonial lg:h-testimonial object-cover rounded-xl shadow-md border-2 border-logoSecondary"
+              alt="About the doctors"
+            />
           </div>
         </div>
       </div>

@@ -16,8 +16,8 @@ import { FaStar } from "react-icons/fa6";
 import testimonials from "data/testimonials";
 
 /* IMAGES */
-import AnshulDave from "assets/images/banners/testimonial-anshul-dave.webp";
-import PanktiShah from "assets/images/banners/testimonial-pankti-shah.webp";
+import AnshulDave from "assets/images/banners/testimonial-anshul-dave.jpeg";
+import PanktiShah from "assets/images/banners/testimonial-pankti-shah.jpeg";
 
 const Testimonials = () => {
   return (
