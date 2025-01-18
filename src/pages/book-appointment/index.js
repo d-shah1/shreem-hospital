@@ -110,10 +110,10 @@ const BookAppointment = () => {
                     Call us on Mon-Fri
                   </h5>
                   <a
-                    href="tel:+918320388744"
+                    href="tel:+917990026506"
                     className="block text-xl font-source-bold text-black mt-1 hover:text-deep-orange-600 transition-all duration-300 ease-in-out"
                   >
-                    +91 8320388744
+                    +91 7990026506
                   </a>
                 </div>
                 <div className="col-span-1 w-full bg-gray-400 shadow bg-opacity-5 border border-greyBorder p-5 rounded-lg">

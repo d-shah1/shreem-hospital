@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 /* PACKAGE IMPORTS */
 import { motion } from "framer-motion";
 
@@ -53,11 +51,16 @@ const AboutHospital = () => {
                 that promotes the well-being of both patients and visitors.sure
                 patients receive comprehensive care under one roof.
               </p>
-              <Link to="/book-appointment" className="mt-5 block">
-                <Button className="shadow-none hover:shadow-none bg-logoPrimary border border-logoPrimary hover:bg-opacity-80 transition-all duration-300 ease-in-out rounded-md normal-case text-base px-5 py-3 text-white font-source-regular">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://wa.link/8p18eb"
+                className="block mt-4"
+              >
+                <Button className="shadow-none hover:shadow-none bg-logoPrimary hover:bg-opacity-80 transition-all duration-300 ease-in-out rounded-md normal-case text-base px-5 py-3 text-white font-source-regular">
                   Book an appointment
                 </Button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

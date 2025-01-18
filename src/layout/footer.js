@@ -138,7 +138,7 @@ const Footer = () => {
 
               {/* NAVIGATION LINKS */}
               <div className="mt-5 xl:mt-0 lg:mt-0 flex items-center justify-normal gap-x-5 gap-y-5 xl:gap-10 lg:gap-10 flex-wrap">
-                {navLinks.map((data) => (
+                {navLinks.slice(0, 3).map((data) => (
                   <Link
                     to={data.link}
                     key={data.id}
@@ -147,6 +147,15 @@ const Footer = () => {
                     {data.name}
                   </Link>
                 ))}
+
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://wa.link/8p18eb"
+                  className="block text-base font-source-regular text-white hover:text-orange-400 transition-all duration-300 ease-in-out"
+                >
+                  Book appointment
+                </a>
               </div>
             </div>
           </div>
@@ -174,10 +183,10 @@ const Footer = () => {
                           Give us a call
                         </h5>
                         <a
-                          href="tel:+918320388744"
+                          href="tel:+917990026506"
                           className="block text-xl font-source-semibold text-white group-hover:text-orange-400 transition-all duration-300 ease-in-out"
                         >
-                          +91 8320388744
+                          +91 7990026506
                         </a>
                       </div>
                     </div>

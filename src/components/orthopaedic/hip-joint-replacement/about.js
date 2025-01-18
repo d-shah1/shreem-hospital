@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 /* PACKAGES */
 import { motion } from "framer-motion";
 
@@ -44,11 +42,16 @@ const About = () => {
                 arthritis (osteoarthritis, rheumatoid arthritis), hip fractures,
                 or joint deformities that do not respond to other treatments.
               </p>
-              <Link to="/book-appointment" className="block mt-5">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://wa.link/8p18eb"
+                className="block mt-4"
+              >
                 <Button className="shadow-none hover:shadow-none bg-logoPrimary hover:bg-opacity-80 transition-all duration-300 ease-in-out rounded-md normal-case text-base px-5 py-3 text-white font-source-regular">
                   Book an appointment
                 </Button>
-              </Link>
+              </a>
             </div>
           </div>
 

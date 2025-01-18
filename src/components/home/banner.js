@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 /* PACKAGE IMPORTS */
 import { motion } from "framer-motion";
 import Marquee from "react-fast-marquee";
@@ -52,12 +50,17 @@ const Banner = () => {
               </div>
               <div className="pt-5">
                 <div className="flex items-center gap-5">
-                  <Link to="/book-appointment" className="block">
-                    <Button className="shadow-none hover:shadow-none bg-logoPrimary border border-logoPrimary hover:bg-opacity-80 transition-all duration-300 ease-in-out rounded-md normal-case text-base px-5 py-3 text-white font-source-regular">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://wa.link/8p18eb"
+                    className="block"
+                  >
+                    <Button className="shadow-none hover:shadow-none bg-logoPrimary hover:bg-opacity-80 transition-all duration-300 ease-in-out rounded-md normal-case text-base px-5 py-3 text-white font-source-regular">
                       Book an appointment
                     </Button>
-                  </Link>
-                  <a href="tel:+918320388744" className="block">
+                  </a>
+                  <a href="tel:+917990026506" className="block">
                     <Button className="shadow-none hover:shadow-none bg-logoPrimary border border-logoPrimary border-opacity-20 bg-opacity-10 hover:bg-opacity-20 transition-all duration-300 ease-in-out rounded-md normal-case text-base px-5 py-3 text-logoPrimary font-source-regular">
                       Reach out to us
                     </Button>

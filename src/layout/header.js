@@ -291,11 +291,16 @@ const Header = () => {
               )}
             </Link> */}
 
-            <Link to="/book-appointment" className="block">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://wa.link/8p18eb"
+              className="block"
+            >
               <Button className="shadow-none hover:shadow-none bg-logoPrimary hover:bg-opacity-80 transition-all duration-300 ease-in-out rounded-md normal-case text-base px-5 py-3 text-white font-source-regular">
                 Book an appointment
               </Button>
-            </Link>
+            </a>
           </div>
 
           {/* HAMBURGER MENU */}
@@ -505,11 +510,16 @@ const Header = () => {
             )}
           </Link> */}
 
-          <Link to="/book-appointment" className="block mt-4">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://wa.link/8p18eb"
+            className="block"
+          >
             <Button className="shadow-none hover:shadow-none bg-logoPrimary hover:bg-opacity-80 transition-all duration-300 ease-in-out rounded-md normal-case text-base px-5 py-3 text-white font-source-regular">
               Book an appointment
             </Button>
-          </Link>
+          </a>
         </div>
       </Collapse>
     </header>
