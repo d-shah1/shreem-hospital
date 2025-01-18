@@ -8,16 +8,6 @@ import { animation } from "config/animation";
 /* MATERIAL TAILWIND COMPONENTS */
 import { Button } from "@material-tailwind/react";
 
-/* ASSETS */
-import Main01 from "assets/images/banners/banner-01.jpeg";
-import Main02 from "assets/images/banners/banner-02.jpeg";
-import Main03 from "assets/images/banners/banner-03.jpeg";
-import Main04 from "assets/images/banners/banner-04.jpeg";
-import Main06 from "assets/images/banners/banner-06.jpeg";
-import Main07 from "assets/images/banners/banner-07.jpeg";
-import Main08 from "assets/images/banners/banner-08.jpeg";
-import Main09 from "assets/images/banners/banner-09.jpeg";
-
 const Banner = () => {
   return (
     <motion.div variants={animation}>
@@ -77,28 +67,28 @@ const Banner = () => {
         <Marquee>
           <div className="px-2.5">
             <img
-              src={Main01}
+              src="/images/banners/banner-01.jpeg"
               className="w-[40vh] h-[40vh] object-cover rounded-xl"
               alt="Shreem Hospital"
             />
           </div>
           <div className="px-2.5">
             <img
-              src={Main02}
+              src="/images/banners/banner-02.jpeg"
               className="w-[40vh] h-[40vh] object-cover rounded-xl"
               alt="Shreem Hospital"
             />
           </div>
           <div className="px-2.5">
             <img
-              src={Main03}
+              src="/images/banners/banner-03.jpeg"
               className="w-[40vh] h-[40vh] object-cover rounded-xl"
               alt="Shreem Hospital"
             />
           </div>
           <div className="px-2.5">
             <img
-              src={Main04}
+              src="/images/banners/banner-04.jpeg"
               className="w-[40vh] h-[40vh] object-cover rounded-xl"
               alt="Shreem Hospital"
             />
@@ -106,28 +96,28 @@ const Banner = () => {
 
           <div className="px-2.5">
             <img
-              src={Main06}
+              src="/images/banners/banner-06.jpeg"
               className="w-[40vh] h-[40vh] object-cover rounded-xl"
               alt="Shreem Hospital"
             />
           </div>
           <div className="px-2.5">
             <img
-              src={Main07}
+              src="/images/banners/banner-07.jpeg"
               className="w-[40vh] h-[40vh] object-cover rounded-xl"
               alt="Shreem Hospital"
             />
           </div>
           <div className="px-2.5">
             <img
-              src={Main08}
+              src="/images/banners/banner-08.jpeg"
               className="w-[40vh] h-[40vh] object-cover rounded-xl"
               alt="Shreem Hospital"
             />
           </div>
           <div className="px-2.5">
             <img
-              src={Main09}
+              src="/images/banners/banner-09.jpeg"
               className="w-[40vh] h-[40vh] object-cover rounded-xl"
               alt="Shreem Hospital"
             />
