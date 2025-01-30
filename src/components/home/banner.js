@@ -60,7 +60,7 @@ const Banner = () => {
                       Book an appointment
                     </Button>
                   </a>
-                  <a href="tel:+917990026506" className="block">
+                  <a href="tel:+919429190126" className="block">
                     <Button className="shadow-none hover:shadow-none bg-logoPrimary border border-logoPrimary border-opacity-20 bg-opacity-10 hover:bg-opacity-20 transition-all duration-300 ease-in-out rounded-md normal-case text-base px-5 py-3 text-logoPrimary font-source-regular">
                       Reach out to us
                     </Button>
