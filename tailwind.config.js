@@ -20,7 +20,7 @@ module.exports = withMT({
         greyBackground: "#F5F5F5",
       },
       height: {
-        footerMap: "42vh",
+        footerMap: "45vh",
         testimonial: "50vh",
       },
       spacing: {
@@ -47,11 +47,11 @@ module.exports = withMT({
         "3xl": "3.2vh",
         "2.5xl": "2.6vh",
         "2xl": "2.3vh",
-        xl: "2.0vh",
-        lg: "1.9vh",
-        md: "1.8vh",
-        base: "1.7vh",
-        sm: "1.6vh",
+        xl: "2.2vh",
+        lg: "2.0vh",
+        md: "2.0vh",
+        base: "1.8vh",
+        sm: "1.7vh",
         xs: "1.5vh",
       },
       fontFamily: {

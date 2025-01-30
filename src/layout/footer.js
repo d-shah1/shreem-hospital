@@ -4,7 +4,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 /* ICONS */
-import { IoCall, IoMail, IoLocation } from "react-icons/io5";
+import { IoCall, IoMail } from "react-icons/io5";
 
 /* LOGO */
 import Logo from "assets/images/logo.png";
@@ -180,13 +180,31 @@ const Footer = () => {
                       </div>
                       <div>
                         <h5 className="text-base font-source-regular text-white text-opacity-80">
-                          Give us a call
+                          Reception
                         </h5>
                         <a
                           href="tel:+917990026506"
                           className="block text-xl font-source-semibold text-white group-hover:text-orange-400 transition-all duration-300 ease-in-out"
                         >
                           +91 7990026506
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-0 mt-5 xl:mt-0 lg:mt-0">
+                    <div className="flex items-center gap-5 group cursor-pointer">
+                      <div className="w-12 h-12 bg-[#232327] rounded-full shrink-0 flex items-center justify-center">
+                        <IoCall className="w-5 h-5 text-white group-hover:text-orange-400 transition-all duration-300 ease-in-out" />
+                      </div>
+                      <div>
+                        <h5 className="text-base font-source-regular text-white text-opacity-80">
+                          Dr. Anshul Dave
+                        </h5>
+                        <a
+                          href="tel:+919429190126"
+                          className="block text-xl font-source-semibold text-white group-hover:text-orange-400 transition-all duration-300 ease-in-out"
+                        >
+                          +91 9429190126
                         </a>
                       </div>
                     </div>
@@ -205,26 +223,6 @@ const Footer = () => {
                           className="block text-lg font-source-semibold text-white group-hover:text-orange-400 transition-all duration-300 ease-in-out"
                         >
                           shreemhosp@gmail.com
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="p-0 mt-5 xl:mt-0 lg:mt-0">
-                    <div className="flex items-center gap-5 group cursor-pointer">
-                      <div className="w-12 h-12 bg-[#232327] rounded-full shrink-0 flex items-center justify-center">
-                        <IoLocation className="w-5 h-5 text-white group-hover:text-orange-300 transition-all duration-300 ease-in-out" />
-                      </div>
-                      <div>
-                        <h5 className="text-base font-source-regular text-white text-opacity-80">
-                          Visit us at our hospital
-                        </h5>
-                        <a
-                          href="https://maps.app.goo.gl/KjFZcHxeLkbnBshy9"
-                          target="_blank"
-                          rel="noreferrer"
-                          className="block text-lg font-source-semibold text-white group-hover:text-orange-300 transition-all duration-300 ease-in-out"
-                        >
-                          Bhayli, Vadodara, Gujarat
                         </a>
                       </div>
                     </div>
