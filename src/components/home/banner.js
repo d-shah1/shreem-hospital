@@ -17,6 +17,7 @@ import Main06 from "assets/images/banners/banner-06.jpeg";
 import Main07 from "assets/images/banners/banner-07.jpeg";
 import Main08 from "assets/images/banners/banner-08.jpeg";
 import Main09 from "assets/images/banners/banner-09.jpeg";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -34,18 +35,24 @@ const Banner = () => {
               </div>
 
               <div className="mt-4">
-                <h1 className="text-3xl xl:text-5xl lg:text-5xl font-inter-bold tracking-tight text-black leading-tight">
-                  Your journey to exclusive wellness begins with Shreem Hospital
+                <h1 className="text-3xl xl:text-5xl lg:text-5xl font-playfair font-bold text-black leading-tight">
+                  Precision Driven, AR - Powered Knee Replacement with{" "}
+                  <span className="text-[#FFA726]">Pixee Medical System</span>
                 </h1>
               </div>
             </div>
             <div className="col-span-1">
               <div className="pb-5 border-b border-greyBorder">
                 <p className="text-md xl:text-lg lg:text-lg font-source-regular text-greyText">
-                  Compassionate care meets cutting-edge technology at Shreem Eye
-                  and Orthopaedic Hospital. Trust us for exceptional healthcare,
-                  world-class specialists, and a patient-first approach to your
-                  well-being and recovery.
+                  Our advanced AR-guided knee replacement technology delivers
+                  precision, reduced pain, and faster rehabilitation for
+                  patients seeking long-lasting mobility and confidence.
+                </p>
+                <p className="mt-2 text-md xl:text-lg lg:text-lg font-source-regular text-greyText">
+                  Surgeon-led augmented-reality navigation ensures personalized
+                  alignment, superior implant positioning, and smoother
+                  recovery, transforming every knee procedure into a predictable
+                  outcome.
                 </p>
               </div>
               <div className="pt-5">
@@ -60,11 +67,11 @@ const Banner = () => {
                       Book an appointment
                     </Button>
                   </a>
-                  <a href="tel:+919429190126" className="block">
+                  <Link to="/pixee-medical-system" className="block">
                     <Button className="shadow-none hover:shadow-none bg-logoPrimary border border-logoPrimary border-opacity-20 bg-opacity-10 hover:bg-opacity-20 transition-all duration-300 ease-in-out rounded-md normal-case text-base px-5 py-3 text-logoPrimary font-source-regular">
-                      Reach out to us
+                      Learn more
                     </Button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

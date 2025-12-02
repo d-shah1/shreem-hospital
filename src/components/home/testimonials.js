@@ -23,7 +23,7 @@ const Testimonials = () => {
   return (
     <motion.div
       variants={animation}
-      className="py-6 xl:py-12 lg:py-12 bg-greyBackground bg-opacity-60 shadow-inner"
+      className="py-6 xl:py-12 lg:py-12 bg-white"
     >
       <div className="container">
         <div className="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 gap-y-8 xl:gap-16 lg:gap-16 items-center">
@@ -57,7 +57,7 @@ const Testimonials = () => {
             </div>
 
             <div className="mt-5">
-              <h2 className="text-3xl xl:text-3xl lg:text-3xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
+              <h2 className="text-3xl xl:text-3xl lg:text-3xl font-playfair font-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
                 Your satisfaction drives our dedication!
               </h2>
               <p className="mt-3 text-lg font-source-regular text-greyText">

@@ -24,7 +24,7 @@ const LasikTypes = () => {
           </div>
 
           <div className="mt-5">
-            <h2 className="text-3xl xl:text-3xl lg:text-3xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
+            <h2 className="text-3xl xl:text-3xl lg:text-3xl font-playfair font-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
               Types of Vision Correction Procedures
             </h2>
           </div>

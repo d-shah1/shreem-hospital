@@ -11,6 +11,7 @@ import AboutUs from "components/home/about-us";
 import AboutHospital from "components/home/about-hospital";
 import WhyChooseUs from "components/home/why-choose-us";
 import Testimonials from "components/home/testimonials";
+import YoutubeSection from "components/home/youtube";
 
 const Homepage = () => {
   return (
@@ -34,6 +35,9 @@ const Homepage = () => {
 
       {/* WHY CHOOSE US */}
       <WhyChooseUs />
+
+      {/* YOUTUBE CHANNELS */}
+      <YoutubeSection />
 
       {/* TESTIMONIALS */}
       <Testimonials />

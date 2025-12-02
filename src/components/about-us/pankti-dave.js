@@ -36,7 +36,7 @@ const AboutPanktiDave = () => {
           />
 
           <div className="pt-5 xl:pt-0 lg:pt-0 pb-0 xl:pb-2 lg:pb-0">
-            <h2 className="text-2xl xl:text-3xl lg:text-3xl font-inter-bold text-black tracking-tight">
+            <h2 className="text-2xl xl:text-3xl lg:text-3xl font-playfair font-bold text-black tracking-tight">
               Dr. Pankti Shah Dave
             </h2>
             <h5 className="mt-1 xl:mt-2 lg:mt-2 text-xl xl:text-2xl lg:text-2xl font-source-regular text-greyText">

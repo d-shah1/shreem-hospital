@@ -32,7 +32,7 @@ const AboutHospital = () => {
                 ABOUT OUR HOSPITAL
               </p>
             </div>
-            <h2 className="mt-5 text-3xl xl:text-3xl lg:text-3xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
+            <h2 className="mt-5 text-3xl xl:text-3xl lg:text-3xl font-playfair font-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
               Best Eye and Orthopaedic hospital in Vadodara
             </h2>
             <div className="mt-5">

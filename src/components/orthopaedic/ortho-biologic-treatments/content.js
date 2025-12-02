@@ -15,7 +15,7 @@ const OtherContent = () => {
           <div className="col-span-1">
             <Card className="bg-white border-2 border-greyBorder rounded-lg shadow-md">
               <CardBody className="p-5 xl:p-10 lg:p-10">
-                <h2 className="text-2xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
+                <h2 className="text-2xl font-playfair font-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
                   Who can benefit from Ortho Biologic Treatments?
                 </h2>
                 <p className="mt-2 text-lg font-source-regular text-greyText">
@@ -45,7 +45,7 @@ const OtherContent = () => {
           <div className="col-span-1">
             <Card className="h-full bg-white border-2 border-greyBorder rounded-lg shadow-md">
               <CardBody className="p-5 xl:p-10 lg:p-10">
-                <h2 className="text-2xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
+                <h2 className="text-2xl font-playfair font-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
                   Addressing Common Concerns About Ortho Biologic Treatments
                 </h2>
                 <p className="mt-2 text-lg font-source-regular text-greyText">

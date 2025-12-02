@@ -164,7 +164,7 @@ const Footer = () => {
           <div className="py-5 xl:py-8 lg:py-8 border-t border-white border-opacity-40">
             <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 items-center">
               <div className="col-span-1">
-                <h5 className="text-2xl font-inter-bold text-white">
+                <h5 className="text-2xl font-playfair font-bold text-white">
                   Get in touch with us
                 </h5>
                 <p className="text-base font-source-regular text-white text-opacity-80">

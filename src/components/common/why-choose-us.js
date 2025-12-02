@@ -24,7 +24,7 @@ const WhyChooseUs = () => {
           </div>
 
           <div className="mt-5">
-            <h2 className="text-3xl xl:text-3xl lg:text-3xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
+            <h2 className="text-3xl xl:text-3xl lg:text-3xl font-playfair font-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
               Why choose us for Joint Replacement Needs?
             </h2>
             <h5 className="mt-2 text-xl font-source-regular text-greyText">
@@ -112,7 +112,7 @@ const WhyChooseUsEye = () => {
           </div>
 
           <div className="mt-5">
-            <h2 className="text-3xl xl:text-3xl lg:text-3xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
+            <h2 className="text-3xl xl:text-3xl lg:text-3xl font-playfair font-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
               Why choose us for Eye Treatments?
             </h2>
             <h5 className="mt-2 text-xl font-source-regular text-greyText">

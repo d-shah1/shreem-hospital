@@ -15,7 +15,7 @@ const OtherContent = () => {
           <div className="col-span-1">
             <Card className="h-full bg-white border-2 border-greyBorder rounded-lg shadow-md">
               <CardBody className="p-5 xl:p-10 lg:p-10">
-                <h2 className="text-2xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
+                <h2 className="text-2xl font-playfair font-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
                   Symptoms Indicating Suitability for Vision Correction
                 </h2>
                 <ul className="ml-8 mt-5 list-disc">
@@ -39,7 +39,7 @@ const OtherContent = () => {
           <div className="col-span-1">
             <Card className="h-full bg-white border-2 border-greyBorder rounded-lg shadow-md">
               <CardBody className="p-5 xl:p-10 lg:p-10">
-                <h2 className="text-2xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
+                <h2 className="text-2xl font-playfair font-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
                   Benefits of Vision Correction Procedures
                 </h2>
                 <ul className="ml-8 mt-5 list-disc">
@@ -66,7 +66,7 @@ const OtherContent = () => {
           <div className="col-span-1">
             <Card className="h-full bg-white border-2 border-greyBorder rounded-lg shadow-md">
               <CardBody className="p-5 xl:p-10 lg:p-10">
-                <h2 className="text-2xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
+                <h2 className="text-2xl font-playfair font-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
                   Causes of Vision Impairment Addressed by Laser Treatments
                 </h2>
                 <ul className="ml-8 mt-5 list-disc">

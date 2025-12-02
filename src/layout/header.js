@@ -79,6 +79,22 @@ const Header = () => {
               )}
             </Link>
 
+            <Link
+              to="/pixee-medical-system"
+              className={`block relative text-base font-source-medium ${
+                location.pathname === "/pixee-medical-system"
+                  ? "text-orange-400"
+                  : "text-black"
+              } hover:text-orange-400 transition-all duration-300 ease-in-out`}
+            >
+              Pixee Knee+ Medical System
+              {location.pathname === "/pixee-medical-system" && (
+                <div className="absolute -bottom-1 left-0 w-full">
+                  <div className="w-full h-[0.3vh] bg-orange-400 rounded-full" />
+                </div>
+              )}
+            </Link>
+
             <Menu
               animate={{
                 mount: { scale: 1, y: 0 },

@@ -36,6 +36,7 @@ import LasikTreatment from "pages/eye-care/lasik-treatment";
 
 /* STYLES */
 import "styles/globals.css";
+import PixeeMedicalSystem from "pages/pixee-medical-system";
 
 /* SCROLL TO TOP */
 const ScrollToTop = () => {
@@ -99,6 +100,10 @@ const App = () => {
               element={<ComprehensiveEyeCare />}
             />
             <Route path="/lasik-treatment" element={<LasikTreatment />} />
+            <Route
+              path="/pixee-medical-system"
+              element={<PixeeMedicalSystem />}
+            />
           </Routes>
         </Layout>
       </Router>

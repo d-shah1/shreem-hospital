@@ -39,6 +39,7 @@ module.exports = withMT({
         20: "8.6vh",
       },
       fontSize: {
+        "9xl": "8.1vh",
         "8xl": "7.1vh",
         "7xl": "6.2vh",
         "6xl": "5.3vh",
@@ -63,6 +64,7 @@ module.exports = withMT({
         "inter-extrabold": ["Inter-Extrabold", "sans-serif"],
         "inter-black": ["Inter-Black", "sans-serif"],
         "inter-bold": ["Inter-Bold", "sans-serif"],
+        playfair: ["Playfair-Display", "sans-serif"],
       },
     },
   },

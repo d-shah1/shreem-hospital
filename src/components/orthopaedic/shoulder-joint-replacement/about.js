@@ -27,7 +27,7 @@ const About = () => {
             </p>
 
             <div className="mt-5">
-              <h5 className="text-2xl font-inter-bold text-black tracking-tight">
+              <h5 className="text-2xl font-playfair font-bold text-black tracking-tight">
                 What is Shoulder Joint Replacement Surgery?
               </h5>
               <p className="mt-5 text-lg font-source-regular text-greyText leading-relaxed">

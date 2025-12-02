@@ -16,7 +16,7 @@ const StatCard = (props) => {
         <CountUp
           end={props.counter}
           suffix={props.suffix}
-          className="text-4xl font-inter-bold text-black"
+          className="text-4xl font-inter-black text-black"
         />
         <div className="mt-2">
           <h5 className="text-lg font-source-semibold text-black">

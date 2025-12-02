@@ -37,7 +37,7 @@ const CardElement = (props) => {
       <CardBody className="p-5">
         <div className="block xl:flex lg:flex items-center gap-5">
           <div className="w-20 h-20 rounded-full bg-white group-hover:bg-orange-400 transition-all duration-300 ease-in-out border border-greyBorder group-hover:border-orange-400 flex items-center justify-center flex-shrink-0">
-            <h5 className="text-3xl font-inter-bold text-orange-400 group-hover:text-white">
+            <h5 className="text-3xl font-playfair font-bold text-orange-400 group-hover:text-white">
               0{props.index}
             </h5>
           </div>
@@ -69,7 +69,7 @@ const WhyChooseUs = () => {
             </div>
 
             <div className="mt-5">
-              <h2 className="text-3xl font-inter-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
+              <h2 className="text-3xl font-playfair font-bold text-black tracking-tight leading-tight xl:leading-normal lg:leading-normal">
                 Your Health, Our Mission
               </h2>
               <p className="mt-2 text-lg font-source-regular text-greyText">

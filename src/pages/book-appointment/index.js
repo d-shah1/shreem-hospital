@@ -93,7 +93,7 @@ const BookAppointment = () => {
           <div className="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-1 sm:grid-cols-1 gap-5 xl:gap-20 lg:gap-0 items-center">
             {/* LEFT SECTION */}
             <div className="col-span-1">
-              <h1 className="text-2.5xl xl:text-3xl lg:text-3xl font-inter-bold text-black tracking-tight leading-tight xl:leading-tight lg:leading-tight">
+              <h1 className="text-2.5xl xl:text-3xl lg:text-3xl font-playfair font-bold text-black tracking-tight leading-tight xl:leading-tight lg:leading-tight">
                 Schedule an appointment with us
               </h1>
               <h2 className="text-lg font-source-regular text-greyText mt-3 leading-relaxed">

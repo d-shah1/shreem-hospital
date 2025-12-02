@@ -51,6 +51,11 @@
   src: url("../assets/fonts/SourceSans3-Light.ttf");
 }
 
+@font-face {
+  font-family: "Playfair-Display";
+  src: url("../assets/fonts/PlayfairDisplay-Variable.ttf");
+}
+
 html {
   scroll-behavior: smooth;
 }
