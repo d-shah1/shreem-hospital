@@ -43,7 +43,7 @@ const statsData = [
   },
   {
     id: 2,
-    counter: 100,
+    counter: 500,
     suffix: "+",
     title: "Successful Surgeries",
     description:
@@ -59,7 +59,7 @@ const statsData = [
   },
   {
     id: 4,
-    counter: 200,
+    counter: 10000,
     suffix: "+",
     title: "Happy patients",
     description: "Transforming health with compassion and medical expertise",

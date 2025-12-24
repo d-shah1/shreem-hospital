@@ -36,8 +36,8 @@ const Banner = () => {
 
               <div className="mt-4">
                 <h1 className="text-3xl xl:text-5xl lg:text-5xl font-playfair font-bold text-black leading-tight">
-                  Precision Driven, AR - Powered Knee Replacement with{" "}
-                  <span className="text-[#FFA726]">Pixee Medical System</span>
+                  AI Robotic Knee Replacement 2025{" "}
+                  <span className="text-[#FFA726]">Future is here</span>
                 </h1>
               </div>
             </div>
